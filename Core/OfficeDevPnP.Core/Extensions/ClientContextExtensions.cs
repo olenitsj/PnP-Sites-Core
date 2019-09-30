@@ -224,7 +224,7 @@ namespace Microsoft.SharePoint.Client
                     }
                 }
             }
-            throw new MaximumRetryAttemptedException($"Maximum retry attempts {retryCount}, has be attempted.");
+            throw new MaximumRetryAttemptedException($"Maximum retry attempts {retryCount}, has been reached.");
         }
 
         /// <summary>
